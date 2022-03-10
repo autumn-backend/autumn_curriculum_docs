@@ -1,0 +1,13 @@
+title: "株式会社 Autumn フロントエンドカリキュラム"
+summary: "株式会社 Autumn フロントエンドエンジニア向けカリキュラムです。"
+topics: ["HTML", "JavaScript", "React"] # トピック
+published: true # falseだと下書き
+price: 0 # 有料の場合200〜5000
+chapters:
+  - 01_env_setting # チャプター1
+  - 02_html_css # チャプター2
+  - 03_html_css_task # チャプター3
+  - 04_web_create # チャプター4
+  - 05_javascript # チャプター5
+  - 06_typescript # チャプター6
+  - 07_react # チャプター7

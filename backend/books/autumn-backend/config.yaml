@@ -1,0 +1,13 @@
+title: "株式会社 Autumn バックエンドカリキュラム"
+summary: "株式会社 Autumn バックエンドエンジニア向けカリキュラムです。"
+topics: ["php", "sql", "laravel"] # トピック
+published: true # falseだと下書き
+price: 0 # 有料の場合200〜5000
+chapters:
+  - 01_env_setting # チャプター1
+  - 02_sample_program # チャプター2
+  - 03_algorythm # チャプター3
+  - 04_SQL # チャプター4
+  - 05_php_basic # チャプター5
+  - 06_php_advanced # チャプター6
+  - 07_laravel # チャプター7
