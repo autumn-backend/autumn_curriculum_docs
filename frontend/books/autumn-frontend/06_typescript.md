@@ -461,7 +461,7 @@ isPositive("foo");
 const res: number = isPositive(123);
 ```
 
-#### 【TS_3-1】 以下のコードで定義される getSpeed は、'slow', 'medium', 'fast'のいずれかの文字列を受け取って数値を返す関数です。この関数に他の文字列を渡すのは型エラーとしたいです。この条件を満たすように型 Speed を定義してください。
+#### 【TS_3-2】 以下のコードで定義される getSpeed は、'slow', 'medium', 'fast'のいずれかの文字列を受け取って数値を返す関数です。この関数に他の文字列を渡すのは型エラーとしたいです。この条件を満たすように型 Speed を定義してください。
 
 ```typescript
 type Speed = /* ここを入力 */;
@@ -486,7 +486,7 @@ const fastSpeed = getSpeed("fast");
 getSpeed("veryfast");
 ```
 
-#### 【TS_3-1】 以下のコードで定義される関数 myFilter は、配列の filter 関数を再実装したものです。
+#### 【TS_3-3】 以下のコードで定義される関数 myFilter は、配列の filter 関数を再実装したものです。
 
 - myFilter 関数に適切な型アノテーションを付けてください。
 - myFilter 関数は色々な型の配列を受け取れる点に注意してください。必要に応じて myFilter に型引数を追加しても構いません。

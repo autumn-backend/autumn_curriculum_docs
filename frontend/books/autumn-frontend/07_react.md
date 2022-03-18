@@ -663,6 +663,8 @@ export const ToggleButton = () => {
 
 ## 課題
 
+#### 【React_3-1】
+
 今回の課題については前回に引き続き、同じプロジェクトの中で実装していきます。
 新しく useStateComponents というフォルダを作り、そこに今回使うコンポーネントファイルを追加して実装してください。
 
@@ -693,8 +695,7 @@ App コンポーネントについては前回と同じです。わかりにく�
 GOOGLE TIPS
 
 > 三項演算子
-> `event.target.value`
-> https://tailwindcomponents.com/components https://tailwindcomponents.com/cheatsheet/
+> `event.target.value` > https://tailwindcomponents.com/components https://tailwindcomponents.com/cheatsheet/
 
 ---
 
@@ -802,6 +803,8 @@ useEffect の機能は理解できましたでしょうか？
 では課題に入っていきます。
 
 ## 課題
+
+#### 【React_4-1】
 
 今回も前回同様、App.js 内に記述してある前回までの課題はコメントアウトし、ブラウザに何も表示されていないこと、エラーが出ていないことを確認してから取り掛かってください。
 
@@ -1039,6 +1042,8 @@ const List = () => {
 # 最終課題：Todo リストの作成
 
 ## 課題
+
+#### 【React_5-1】
 
 よくぞここまでやってきました！
 最終課題は React で Todo リストを実装しよう(^ω^)です！
