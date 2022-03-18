@@ -68,11 +68,13 @@ Github では、主に以下の機能を活用します。
 
 **FLOCSS**
 https://haniwaman.com/flocss/
+<br>
 https://github.com/hiloki/flocss
 
 #### JavaScript
 
 https://cou929.nu/data/google_javascript_style_guide/#
+<br>
 http://memopad.bitter.jp/w3c/js/js_conventions.html
 
 #### TypeScript
@@ -94,11 +96,13 @@ https://dev.mysql.com/doc/refman/8.0/ja/
 
 **PSR-2**
 https://qiita.com/katsukii/items/e68183f14407722de9cc#psr-2
+<br>
 http://www.infiniteloop.co.jp/docs/psr/psr-2-coding-style-guide.html
 
 #### Laravel
 
 https://laraweb.net/knowledge/942/
+<br>
 https://qiita.com/gone0021/items/e248c8b0ed3a9e6dbdee
 
 ### Git の命名規則
