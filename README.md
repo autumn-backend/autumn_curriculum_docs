@@ -17,7 +17,7 @@ Autumn の Slack に`#00_新規入社の方へ`というチャンネルがあり
 
 （各種カリキュラムページ）
 ### バックエンド
-https://zenn-preview-fff2d994-7990-4144-a02c-09b735d52c5a-2kxz5sjsyq-an.a.run.app/books/autumn-backend
+https://zenn-preview-79a8640a-98c9-4db5-a5f6-16b242181c24-2kxz5sjsyq-an.a.run.app/books/autumn-backend
 ### フロントエンド
 https://zenn-preview-76aed975-e70b-4af0-b3b7-de6b45a1729c-bxmet5v5fq-an.a.run.app/books/autumn-frontend
 
