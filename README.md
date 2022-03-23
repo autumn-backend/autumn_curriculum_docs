@@ -139,7 +139,7 @@ https://qiita.com/gone0021/items/e248c8b0ed3a9e6dbdee
 コミットメッセージは、規則に従って記述をしましょう。
 
 ```
-【課題No】【作業内容】概要
+[課題No][作業内容]概要
 ```
 
 `作業内容は以下から選択`
@@ -150,6 +150,18 @@ https://qiita.com/gone0021/items/e248c8b0ed3a9e6dbdee
 - env : 環境構築系
 - temp : 一時提出（issue 用）
 - other : その他
+
+**悪い例** <br>
+> Lesson１0 <br>
+> Lesson10修正 <br>
+
+**良い例** <br>
+
+> [JS_1-1][new]初回提出 <br>
+> [JS_1-1][fix]計算ロジックの修正 <br>
+
+💡第三者が見ても「どんな作業をしたか」が明確になるよう心がけましょう。
+
 
 #### プルリクエスト(pull request)
 
