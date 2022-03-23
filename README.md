@@ -16,13 +16,22 @@ Autumn の Slack に`#00_新規入社の方へ`というチャンネルがあり
 ## カリキュラムの進め方について
 
 （各種カリキュラムページ）
+### バックエンド
+https://zenn-preview-fff2d994-7990-4144-a02c-09b735d52c5a-2kxz5sjsyq-an.a.run.app/books/autumn-backend
+### フロントエンド
+https://zenn-preview-76aed975-e70b-4af0-b3b7-de6b45a1729c-bxmet5v5fq-an.a.run.app/books/autumn-frontend
 
-（作業用リポジトリ）
-
-カリキュラムの進め方は、上記カリキュラムページを見ながら、作業用リポジトリで作業をしてください。<br />
+<br>
+上記カリキュラムページを見ながら、作業用リポジトリで作業をしてください。<br />
 ある程度の問題文と必要なコードは作業用リポジトリに記載してあるため、どんどん進められる人は作業用リポジトリを見て進め、<br />
 わからない部分だけカリキュラムページを見るでも構いません。
+※ 作業リポジトリは個別配布します
 <br><br>
+
+## カリキュラムの提出について
+カリキュラムの提出はプルリクエストの機能を用いてください。<br>
+また、課題について質問があればイシューの機能を活用します。<br>
+コミット〜プッシュまで完了し、プルリクエストを作成したらSlackでメンターにレビュー依頼をしてください。
 
 ## カリキュラムの導入手順
 
@@ -64,11 +73,13 @@ Github では、主に以下の機能を活用します。
 
 **FLOCSS**
 https://haniwaman.com/flocss/
+<br>
 https://github.com/hiloki/flocss
 
 #### JavaScript
 
 https://cou929.nu/data/google_javascript_style_guide/#
+<br>
 http://memopad.bitter.jp/w3c/js/js_conventions.html
 
 #### TypeScript
@@ -90,11 +101,13 @@ https://dev.mysql.com/doc/refman/8.0/ja/
 
 **PSR-2**
 https://qiita.com/katsukii/items/e68183f14407722de9cc#psr-2
+<br>
 http://www.infiniteloop.co.jp/docs/psr/psr-2-coding-style-guide.html
 
 #### Laravel
 
 https://laraweb.net/knowledge/942/
+<br>
 https://qiita.com/gone0021/items/e248c8b0ed3a9e6dbdee
 
 ### Git の命名規則
