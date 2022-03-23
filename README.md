@@ -34,10 +34,28 @@ https://zenn-preview-76aed975-e70b-4af0-b3b7-de6b45a1729c-bxmet5v5fq-an.a.run.ap
 コミット〜プッシュまで完了し、プルリクエストを作成したらSlackでメンターにレビュー依頼をしてください。
 
 ## カリキュラムの導入手順
+### 1. git cloneをする
+💡 「$」マークは除いて、ターミナル(Mac)またはコマンドプロンプト(Windows)で以下のコマンド実行してください。
+💡 「//」はコメントなので無視してください。
 
-自身の名前がついたリポジトリで以下の通り作業を進めてください。<br />
-詳細手順については、**Git 導入**シートに記載してあります。
-<br><br>
+```
+// Windowsの方のみ以下を実行
+$ cd Desktop
+// 作業ディレクトリ作成＋移動
+$ mkdir workspace && cd workspace
+$ git clone （作業リポジトリのURL）
+```
+### 2. VSCodeでクローンしたフォルダを開く
+先ほどcloneしたフォルダをVSCodeで開いてください。
+### 3. ブランチを切り替える
+#### コマンドでする場合
+```
+$ git checkout ブランチ名
+```
+#### GUI操作でする場合
+<img width="874" alt="checkout" src="https://user-images.githubusercontent.com/67848399/159731664-331b8045-5173-4dc5-b0ef-75a3c3f7cbf1.png">
+
+
 
 ## Github のメイン機能
 
