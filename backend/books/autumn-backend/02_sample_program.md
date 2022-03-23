@@ -21,22 +21,11 @@ https://webservice.recruit.co.jp/register/
 あとで使うので控えておいてください。
 :::
 
-### 作業フォルダの作成
+### VSCode でカリキュラムを開く
 
-#### Windows の場合
+VSCode でカリキュラムを立ち上げ、後続の作業を進めてください。
 
-```
-$ cd Desktop
-$ mkdir php_training && cd php_training
-$ touch restaurant_search.php
-```
-
-#### Mac の場合
-
-```
-$ mkdir php_training && cd php_training
-$ touch restaurant_search.php
-```
+<br>
 
 ### パッケージ等のインストール
 
@@ -74,7 +63,14 @@ composer -v
 
 ※ ① のようにバージョンが出れば良い
 
-#### ④ Guzzle インストール
+#### ④ vendor ファイルの作成
+
+```
+cd 02_Experience
+composer install
+```
+
+#### ⑤ Guzzle インストール
 
 ```
 composer require guzzlehttp/guzzle
