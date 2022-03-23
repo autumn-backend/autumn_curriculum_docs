@@ -9,7 +9,10 @@ Autumn の Slack に`#00_新規入社の方へ`というチャンネルがあり
 <br><br>
 
 ## カリキュラムの運用について
-
+（運用スプレッドシート）
+<br>
+https://docs.google.com/spreadsheets/d/1U9LFo-4XtFK7y10jNKO7snRLKP6k1mmWKzxaAkMWv1I/edit#gid=201315594&range=B1
+<br>
 カリキュラムは、メンター制度のもと運用をしています。所属チームはスプレッドシートの**チーム編成**シートを参照してください。
 <br><br>
 
@@ -36,6 +39,7 @@ https://zenn-preview-76aed975-e70b-4af0-b3b7-de6b45a1729c-bxmet5v5fq-an.a.run.ap
 ## カリキュラムの導入手順
 ### 1. git cloneをする
 💡 「$」マークは除いて、ターミナル(Mac)またはコマンドプロンプト(Windows)で以下のコマンド実行してください。
+<br>
 💡 「//」はコメントなので無視してください。
 
 ```
