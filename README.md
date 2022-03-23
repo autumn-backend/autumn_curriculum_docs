@@ -203,7 +203,9 @@ gcloud auth configure-docker
 docker build -t "gcr.io/$GCLOUD_PROJECT/zenn-preview" .
 docker push "gcr.io/$GCLOUD_PROJECT/zenn-preview"
 
+setopt nonomatch
 service_name="zenn-preview-$(uuidgen | tr [:upper:] [:lower:])"
+
 gcloud run deploy "$service_name" \
   --image "gcr.io/$GCLOUD_PROJECT/zenn-preview" \
   --port 8000 \
