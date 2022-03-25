@@ -94,12 +94,12 @@ Github では、主に以下の機能を活用します。
 #### HTML/ CSS / Sass
 
 **FLOCSS**
+<br>
 https://haniwaman.com/flocss/
 <br>
 https://github.com/hiloki/flocss
 
 #### JavaScript
-
 https://cou929.nu/data/google_javascript_style_guide/#
 <br>
 http://memopad.bitter.jp/w3c/js/js_conventions.html
@@ -122,6 +122,7 @@ https://dev.mysql.com/doc/refman/8.0/ja/
 #### PHP
 
 **PSR-2**
+<br>
 https://qiita.com/katsukii/items/e68183f14407722de9cc#psr-2
 <br>
 http://www.infiniteloop.co.jp/docs/psr/psr-2-coding-style-guide.html
