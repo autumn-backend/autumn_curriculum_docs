@@ -10,15 +10,24 @@ Autumn の Slack に`#00_新規入社の方へ`というチャンネルがあり
 
 ## カリキュラムの運用について
 
+[カリキュラム運用シート](https://docs.google.com/spreadsheets/d/1U9LFo-4XtFK7y10jNKO7snRLKP6k1mmWKzxaAkMWv1I/edit#gid=201315594&range=A1)
+<br />
 カリキュラムは、メンター制度のもと運用をしています。所属チームはスプレッドシートの**チーム編成**シートを参照してください。
 <br><br>
 
 ## カリキュラムの進め方について
 
-（各種カリキュラムページ）
+### カリキュラムページ
 
-（作業用リポジトリ）
+#### フロントエンド
 
+https://zenn-preview-76aed975-e70b-4af0-b3b7-de6b45a1729c-bxmet5v5fq-an.a.run.app/books/autumn-frontend
+
+#### バックエンド
+
+https://zenn-preview-3897c166-9e7d-4ada-95cb-c7a0fb860f69-2kxz5sjsyq-an.a.run.app/books/autumn-backend
+
+<br>
 カリキュラムの進め方は、上記カリキュラムページを見ながら、作業用リポジトリで作業をしてください。<br />
 ある程度の問題文と必要なコードは作業用リポジトリに記載してあるため、どんどん進められる人は作業用リポジトリを見て進め、<br />
 わからない部分だけカリキュラムページを見るでも構いません。
