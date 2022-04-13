@@ -72,6 +72,11 @@ https://www.php.net/manual/ja/book.pdo.php
 
 #### 【PHP_A_1-3】 orders テーブルから、ID が一番大きいものを削除する
 
+<br />
+フォーム
+<br />
+https://kurogoma939.github.io/backend_php_sample/form.html
+<br />
 :::message
 テーブルは、SQL の課題で使ったものを引用してください。
 :::
@@ -265,6 +270,13 @@ https://www.php.net/manual/ja/function.json-decode.php
 </html>
 :::
 
+<br />
+フォーム
+<br />
+https://kurogoma939.github.io/backend_php_sample/login.html
+<br />
+
+
 # 4.実践問題
 それでは、PHP最終問題です。
 PHPには色々な組み込み関数があり、やりたいことは大抵関数で実現できます。色々な関数は、公式マニュアルから検索することを推奨します。
@@ -403,6 +415,12 @@ PHPには色々な組み込み関数があり、やりたいことは大抵関�
 :::
 
 ![poker.html](https://storage.googleapis.com/zenn-user-upload/c966d427502e-20220308.png)
+
+<br />
+フォーム
+<br />
+https://kurogoma939.github.io/backend_php_sample/poker.html
+<br />
 
 :::details 課題用 sql
 
