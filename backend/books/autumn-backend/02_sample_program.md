@@ -137,7 +137,7 @@ PHP を実行するには、`php ファイル名`で実行することができ�
 以下のコマンドをターミナル/コマンドプロンプトで実行して確認してみましょう。
 
 ```
-$ php restaurants_search.php
+$ php restaurant_search.php
 ```
 
 ### 出力結果
