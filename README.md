@@ -12,6 +12,7 @@ Autumn の Slack に`#00_新規入社の方へ`というチャンネルがあり
 
 [カリキュラム運用シート](https://docs.google.com/spreadsheets/d/1U9LFo-4XtFK7y10jNKO7snRLKP6k1mmWKzxaAkMWv1I/edit#gid=201315594&range=A1)
 <br />
+
 カリキュラムは、メンター制度のもと運用をしています。所属チームはスプレッドシートの**チーム編成**シートを参照してください。
 <br><br>
 
@@ -29,15 +30,49 @@ https://zenn-preview-3897c166-9e7d-4ada-95cb-c7a0fb860f69-2kxz5sjsyq-an.a.run.ap
 
 <br>
 カリキュラムの進め方は、上記カリキュラムページを見ながら、作業用リポジトリで作業をしてください。<br />
+
 ある程度の問題文と必要なコードは作業用リポジトリに記載してあるため、どんどん進められる人は作業用リポジトリを見て進め、<br />
 わからない部分だけカリキュラムページを見るでも構いません。
+※ 作業リポジトリは個別配布します
 <br><br>
+
+## カリキュラムの提出について
+
+カリキュラムの提出はプルリクエストの機能を用いてください。<br>
+また、課題について質問があればイシューの機能を活用します。<br>
+コミット〜プッシュまで完了し、プルリクエストを作成したら Slack でメンターにレビュー依頼をしてください。
 
 ## カリキュラムの導入手順
 
-自身の名前がついたリポジトリで以下の通り作業を進めてください。<br />
-詳細手順については、**Git 導入**シートに記載してあります。
-<br><br>
+### 1. git clone をする
+
+💡 「$」マークは除いて、ターミナル(Mac)またはコマンドプロンプト(Windows)で以下のコマンド実行してください。
+<br>
+💡 「//」はコメントなので無視してください。
+
+```
+// Windowsの方のみ以下を実行
+$ cd Desktop
+// 作業ディレクトリ作成＋移動
+$ mkdir workspace && cd workspace
+$ git clone （作業リポジトリのURL）
+```
+
+### 2. VSCode でクローンしたフォルダを開く
+
+先ほど clone したフォルダを VSCode で開いてください。
+
+### 3. ブランチを切り替える
+
+#### コマンドでする場合
+
+```
+$ git checkout ブランチ名
+```
+
+#### GUI 操作でする場合
+
+<img width="874" alt="checkout" src="https://user-images.githubusercontent.com/67848399/159731664-331b8045-5173-4dc5-b0ef-75a3c3f7cbf1.png">
 
 ## Github のメイン機能
 
@@ -72,12 +107,15 @@ Github では、主に以下の機能を活用します。
 #### HTML/ CSS / Sass
 
 **FLOCSS**
+<br>
 https://haniwaman.com/flocss/
+<br>
 https://github.com/hiloki/flocss
 
 #### JavaScript
 
 https://cou929.nu/data/google_javascript_style_guide/#
+<br>
 http://memopad.bitter.jp/w3c/js/js_conventions.html
 
 #### TypeScript
@@ -98,12 +136,15 @@ https://dev.mysql.com/doc/refman/8.0/ja/
 #### PHP
 
 **PSR-2**
+<br>
 https://qiita.com/katsukii/items/e68183f14407722de9cc#psr-2
+<br>
 http://www.infiniteloop.co.jp/docs/psr/psr-2-coding-style-guide.html
 
 #### Laravel
 
 https://laraweb.net/knowledge/942/
+<br>
 https://qiita.com/gone0021/items/e248c8b0ed3a9e6dbdee
 
 ### Git の命名規則
@@ -113,7 +154,7 @@ https://qiita.com/gone0021/items/e248c8b0ed3a9e6dbdee
 コミットメッセージは、規則に従って記述をしましょう。
 
 ```
-【課題No】【作業内容】概要
+[課題No][作業内容]概要
 ```
 
 `作業内容は以下から選択`
@@ -124,6 +165,17 @@ https://qiita.com/gone0021/items/e248c8b0ed3a9e6dbdee
 - env : 環境構築系
 - temp : 一時提出（issue 用）
 - other : その他
+
+**悪い例** <br>
+
+> Lesson １ 0 <br>
+> Lesson10 修正 <br>
+
+**良い例** <br>
+
+> [JS_1-1][new]初回提出 <br> > [JS_1-1][fix]計算ロジックの修正 <br>
+
+💡 第三者が見ても「どんな作業をしたか」が明確になるよう心がけましょう。
 
 #### プルリクエスト(pull request)
 
@@ -185,3 +237,27 @@ https://qiita.com/gone0021/items/e248c8b0ed3a9e6dbdee
 
 フルネームをスネークケースで作成<br />
 （例） 大月裕太の場合、y_otsuki
+
+## デプロイ手順
+
+プロジェクト ID は Cloud Run に登録されているものです。
+
+```
+GCLOUD_PROJECT=プロジェクトID
+
+gcloud config set project "$GCLOUD_PROJECT"
+gcloud auth configure-docker
+
+docker build -t "gcr.io/$GCLOUD_PROJECT/zenn-preview" .
+docker push "gcr.io/$GCLOUD_PROJECT/zenn-preview"
+
+setopt nonomatch
+service_name="zenn-preview-$(uuidgen | tr [:upper:] [:lower:])"
+
+gcloud run deploy "$service_name" \
+  --image "gcr.io/$GCLOUD_PROJECT/zenn-preview" \
+  --port 8000 \
+  --platform managed \
+  --allow-unauthenticated \
+  --region asia-northeast1
+```
