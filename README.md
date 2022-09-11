@@ -240,27 +240,4 @@ https://qiita.com/gone0021/items/e248c8b0ed3a9e6dbdee
 
 ## デプロイ手順
 
-プロジェクト ID は Cloud Run に登録されているものです。
-### デプロイ詳細手順（アクセス権限あり）
-https://docs.google.com/spreadsheets/d/1JmgROHqtYniNICgtXf1zn59vuoL3RW759x-CwDFJM6o/edit#gid=0
-
-```
-GCLOUD_PROJECT=プロジェクトID
-
-gcloud config set project "$GCLOUD_PROJECT"
-gcloud auth configure-docker
-
-docker build -t "gcr.io/$GCLOUD_PROJECT/zenn-preview" .
-docker push "gcr.io/$GCLOUD_PROJECT/zenn-preview"
-
-setopt nonomatch
-DATE=`date '+%Y%m%d'`
-service_name=autumn-frontend-$DATE
-
-gcloud run deploy "$service_name" \
-  --image "gcr.io/$GCLOUD_PROJECT/zenn-preview" \
-  --port 8000 \
-  --platform managed \
-  --allow-unauthenticated \
-  --region asia-northeast1
-```
+https://github.com/autumn-backend/autumn_curriculum_docs/wiki/%E3%83%87%E3%83%97%E3%83%AD%E3%82%A4%E6%89%8B%E9%A0%86
