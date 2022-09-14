@@ -131,19 +131,21 @@ http://www.johoka.net/kihontag.htm
 ボタンを押したときに外部のページや内部の別のページなどに遷移することができます。
 
 ```html
-<a href="https://www.google.co.jp/">Google Japanのリンク<a></a></a>
+<a href="https://www.google.co.jp/">Google Japanのリンク</a>
 ```
 
 **src 属性**
 
+タグで表示させたい画像の場所を指定し、表示させます。
 ```html
-<img />タグで表示させたい画像の場所を指定し、表示させます。
+<img src="sample.png">
 ```
 
 **alt 属性**
 
+タグでうまく表示されなかったときの代替のテキストを表示させます。
 ```html
-<img />タグでうまく表示されなかったときの代替のテキストを表示させます。
+<img src="sample.png" alt="サンプル画像">
 ```
 
 ### タグの入れ子関係
@@ -262,7 +264,7 @@ meta 要素は、ページの情報を定義する要素です。「UTF-8」は�
 </body>
 ```
 
-⑤index.html ファイルうをブラウザで表示
+⑤index.html ファイルをブラウザで表示
 ![](https://storage.googleapis.com/zenn-user-upload/cac2170cdf82-20220308.png)
 
 ⑥style.css で下記のように記載
@@ -271,7 +273,7 @@ meta 要素は、ページの情報を定義する要素です。「UTF-8」は�
 p{ color: red; }
 ```
 
-⑦index.html ファイルうをブラウザで表示
+⑦index.html ファイルをブラウザで表示
 　文字の色が変われば成功
 
 ※色が変わらない場合 ② と ③ と ⑥ を見直してください。
@@ -282,7 +284,7 @@ p{ color: red; }
 p { color: red; } .test { color: blue; } #sample { color: green; }
 ```
 
-⑨index.html ファイルうをブラウザで表示
+⑨index.html ファイルをブラウザで表示
 　文字の色が変われば成功
 ![](https://storage.googleapis.com/zenn-user-upload/081ad068a938-20220308.png)
 
@@ -402,7 +404,7 @@ HTML や CSS を実際に使って行きます。
 
 ### ファイルをダウンロードして、sample ファイルを見てみよう
 
-https://github.com/takuma39/curriculumn
+https://github.com/Autumn-Frontend/curriculumn
 
 ### CSS の書き方
 
