@@ -58,7 +58,7 @@ GET を POST に変えるだけです。
 
 生の PHP でデータベースにアクセスするには、PDO（PHP Data Objects）というものを使うことで可能となります。詳しくは、以下の公式ドキュメントを参照してください。
 
-https://www.php.net/manual/ja/book.pdo.php
+[PHP公式マニュアル:PDO]https://www.php.net/manual/ja/book.pdo.php
 
 ## 課題
 
