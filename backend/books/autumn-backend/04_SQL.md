@@ -109,7 +109,7 @@ VALUES (1,'John', 'john@gmail.com', 'Johndesu', 'M', 1),
        (2,'Kevin', 'kevin@gmail.com', 'kevindesu', 'F', 1),
        (3,'Kanta', 'kanta@gmail.com', 'kantadesu', 'M', 1),
        (4,'Mei', 'mei@gmail.com', 'meidesu', 'F', 1),
-       (5,'master', 'master@gmail.com', 'masteradmin',, 'F' 2);
+       (5,'master', 'master@gmail.com', 'masteradmin', 'F', 2);
 ```
 
 :::

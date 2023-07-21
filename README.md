@@ -26,7 +26,7 @@ Autumn の Slack に`#00_新規入社の方へ`というチャンネルがあり
 
 #### バックエンド
 
-[バックエンドカリキュラム](https://backend-curriculum-2038732246-aziozrez5a-an.a.run.app)
+[バックエンドカリキュラム](https://backend-curriculum-1076631429-aziozrez5a-an.a.run.app)
 
 <br>
 カリキュラムの進め方は、上記カリキュラムページを見ながら、作業用リポジトリで作業をしてください。<br />
