@@ -376,7 +376,7 @@ orders テーブルにある total_price は、items テーブルの price と o
 
 いよいよ SQL 最後の課題です！今までの復習なので頑張りましょう！
 
-purchases テーブル / customers テーブルを使用し、以下のクエリを作成してください！
+purchases テーブル / customers テーブルを使用し、以下の条件を満たすクエリを作成し、実行してください！
 
 【SQL_5-1】
 テーブルを結合し、total_price の昇順、性別の降順で一覧を表示してください。
