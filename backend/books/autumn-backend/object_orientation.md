@@ -423,7 +423,7 @@ protected は継承先のクラスからは参照可能なため、Humanクラ�
 public function set_weight($weight) {
   $this->weight = $weight;
 }
-
+```
 今回の例では実装しませんでしたが、このようなメソッドを セッター と呼びます。
 そして、これらの手法を駆使しながら外部からのアクセスを防ぐこと（＝隠蔽すること）を カプセル化 といいます。
 
@@ -440,11 +440,16 @@ public function set_weight($weight) {
 Studentクラスを次の仕様を満たすように改良してください。
 
 ・Humanクラスを継承する（$weight が protected）
+
 ・$scoreプロパティをコンストラクタで任意の値に設定できるようにする
+
 ・$scoreプロパティのアクセス権を private にする
+
 ・examine()メソッドを追加する
+
 ・examine()メソッドでは $score の値を戻り値として返す
-・class_main.phpをTeacherクラスではなくStudentクラスを扱えるように次のように書き換えて下さい。
+
+・class_main.phpをTeacherクラスではなくStudentクラスを扱えるように書き換えて下さい。
 
 出力形式
 
