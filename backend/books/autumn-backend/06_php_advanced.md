@@ -458,7 +458,8 @@ PHPには色々な組み込み関数があり、やりたいことは大抵関�
 
 :::
 
-![poker.html](https://storage.googleapis.com/zenn-user-upload/c966d427502e-20220308.png)
+<!-- ![poker.html](https://storage.googleapis.com/zenn-user-upload/c966d427502e-20220308.png) -->
+![poker.html](image/06_php_A_poker.png)
 
 https://kurogoma939.github.io/backend_php_sample/poker.html
 

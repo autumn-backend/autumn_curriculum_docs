@@ -21,13 +21,15 @@ https://www.mamp.info/en/downloads/
 
 > ① ウィンドウ右上の Start ボタンを押下（スクショの Stop ボタンの部分）
 > ② アプリが立ち上がったら WebStart ボタンを押下
-> ![MAMP起動](https://storage.googleapis.com/zenn-user-upload/e0ea330a62e8-20220307.png)
+<!-- > ![MAMP起動](https://storage.googleapis.com/zenn-user-upload/e0ea330a62e8-20220307.png) -->
+> ![MAMP起動](image/04_mamp.png)
 
 ## phpMyAdmin の起動
 
 WebStart ボタンを押下するとブラウザで以下のようなページが立ち上がります。
 ヘッダーの**Tools** => **phpMyAdmin**を押下してください。
-![phpMyAdminの起動](https://storage.googleapis.com/zenn-user-upload/feec6bcdbbbe-20220307.png)
+<!-- ![phpMyAdminの起動](https://storage.googleapis.com/zenn-user-upload/feec6bcdbbbe-20220307.png) -->
+![phpMyAdminの起動](image/04_phpMyAdmin.png)
 
 ## データベースの作成
 
@@ -35,6 +37,7 @@ WebStart ボタンを押下するとブラウザで以下のようなページ�
 > ② データベース名に **「autumn_db」** と入力
 > ③ **「Create」** を押下して完了
 > ![データベース作成](https://storage.googleapis.com/zenn-user-upload/e9c94bcb5e35-20220307.png)
+> ![データベース作成](image/04_sql_DB_create01.png)
 
 ## SQL の実行方法 ① インポート
 
@@ -46,7 +49,8 @@ SQL の実行方法は 2 つあります。
 > ① 「import タブ」を選択
 > ② 「ファイルを選択」を押下し、読み込ませたい SQL ファイルを選択する
 > ③ 「Go」を押下して実行
-> ![SQLインポート](https://storage.googleapis.com/zenn-user-upload/7394fac0e0fa-20220307.png)
+<!-- > ![SQLインポート](https://storage.googleapis.com/zenn-user-upload/7394fac0e0fa-20220307.png) -->
+> ![SQLインポート](image/04_sql_import.png)
 
 ## SQL の実行方法 ② 直接実行
 
@@ -55,7 +59,8 @@ SQL の実行方法は 2 つあります。
 > ① 「SQL タブ」を選択
 > ② テキストエリアに SQL 文を書く
 > ③ 「Go」を押下して実行
-> ![](https://storage.googleapis.com/zenn-user-upload/0cf51d79505b-20220307.png)
+<!-- > ![](https://storage.googleapis.com/zenn-user-upload/0cf51d79505b-20220307.png) -->
+> ![](image/04_sql_execution.png)
 
 ## カリキュラム用データ作成
 
@@ -335,7 +340,8 @@ users テーブルは、「ユーザーに関する情報」を管理するた�
 また、users テーブルは roles テーブルから権限情報を取得するのですが、それには「テーブルの結合」をさせる必要があります。
 テーブルを結合させることで、関連するデータをまとめて取得・整理することが可能となります。
 では、課題に取り組んでみましょう。
-![join_sql](https://storage.googleapis.com/zenn-user-upload/2a97cfa149ac-20220307.png)
+<!-- ![join_sql](https://storage.googleapis.com/zenn-user-upload/2a97cfa149ac-20220307.png) -->
+![join_sql](image/04_sql_join.png)
 
 #### 【SQL_3-1】 users テーブルと roles テーブルを結合して出力してください
 
@@ -353,11 +359,13 @@ users テーブルは、「ユーザーに関する情報」を管理するた�
 
 ### 結合前のテーブル
 
-![sql1](https://storage.googleapis.com/zenn-user-upload/b39c99578bee-20220307.png)
+<!-- ![sql1](https://storage.googleapis.com/zenn-user-upload/b39c99578bee-20220307.png) -->
+![sql1](image/04_sql_CRUD_01.png)
 
 ### 結合後のテーブル
 
-![sql2](https://storage.googleapis.com/zenn-user-upload/19ff6ade94c7-20220307.png)
+<!-- ![sql2](https://storage.googleapis.com/zenn-user-upload/19ff6ade94c7-20220307.png) -->
+![sql2](image/04_sql_CRUD_02.png)
 orders テーブルにある total_price は、items テーブルの price と orders テーブルの count を掛け算する必要があります。少し難しい内容ですが、チャレンジしてみてください！
 
 #### 【SQL_4-1】 orders テーブルにレコードを追加してください。

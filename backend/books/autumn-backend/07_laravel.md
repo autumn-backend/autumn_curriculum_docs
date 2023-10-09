@@ -40,7 +40,8 @@ $docker stop
 
 動作確認は、各コンテナを立ち上げた後ブラウザで[http://localhost](http://localhost) にアクセスをして、以下の画面が立ち上がれば完了です。
 
-![](https://storage.googleapis.com/zenn-user-upload/7e783f0009fe-20220308.png)
+<!-- ![](https://storage.googleapis.com/zenn-user-upload/7e783f0009fe-20220308.png) -->
+![](image/07_Laravel.png)
 :::message
 上記のキャプチャをウェルカム画面と言ったりしますが、バージョンによって異なります。
 Laravel と表示された画面がでれば成功です。

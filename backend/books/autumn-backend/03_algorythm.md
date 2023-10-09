@@ -21,7 +21,8 @@ title: "アルゴリズム（データフロー）の作成"
 また、不正なカードがあった場合はどうでしょう？
 
 よって、単なる部屋の入退室に思えるようなロジックでも、あらゆる要素を考慮すると次のように分岐を考えなくてはなりません。
-![algorythm](https://storage.googleapis.com/zenn-user-upload/d18e64e71bfa-20220308.png)
+<!-- ![algorythm](https://storage.googleapis.com/zenn-user-upload/d18e64e71bfa-20220308.png) -->
+![algorythm](image/03_algorithm.png)
 
 ## 課題
 
@@ -41,3 +42,4 @@ https://app.diagrams.net/
 
 なお、例題のキャプチャに**凡例**がありますが、ここでの見本ではなく業界一般的なものとなります。開発現場に入っても共通の図形のため、図形の意図を考えながら作成しましょう。
 ![](https://storage.googleapis.com/zenn-user-upload/8207f8a2253a-20220308.png)
+![](image/03_algorythm_sample.png)
