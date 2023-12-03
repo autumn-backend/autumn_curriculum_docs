@@ -22,7 +22,7 @@ Autumn の Slack に`#00_新規入社の方へ`というチャンネルがあり
 
 #### フロントエンド
 
-[フロントエンドカリキュラム](https://frontend-curriculum-234036219-aziozrez5a-an.a.run.app)
+[フロントエンドカリキュラム](https://www.autumn-group.com/frontend_curriculum/environment_building/)
 
 #### バックエンド
 
