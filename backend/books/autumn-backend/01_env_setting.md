@@ -26,15 +26,6 @@ https://qiita.com/ucan-lab/items/e85931bf8276da43cc97
    <!-- ![](https://storage.googleapis.com/zenn-user-upload/b70ac80c7e28-20220308.png) -->
    ![](image/01_plugin.png)
 
-## PHP Storm のインストール
-
-次に、PHP 開発に特化した PHPStorm をインストールしていきましょう。
-カリキュラムは VSCode メインに解説をしますが、慣れると使いやすいので PHPStorm も興味があれば使ってみてください。ただし、有料版ではあるものの基本無料で使い続けることができます。
-:::message
-無料体験期間を経過すると、機能はフルで使えるものの 30 分で一度 IDE が強制終了してします。
-月 1000 円程度の課金でフル活用できます。アカウント単位のため、別 PC でも利用できます。
-:::
-
 ---
 
 # Homebrew のインストール（Mac 専用）
@@ -84,8 +75,15 @@ $ brew cask install docker
 
 以下のサイトから Git をインストールしましょう。
 https://git-for-windows.github.io/
+
+ダウンロードページに到達すると下記のようにexe（実行）ファイルがあります。
+赤枠で囲われているものをダウンロードし、完了後にダウンロード先から実行してください。
+![](image/Git_exe.png)
+
 インストール後の設定については、以下のサイトを参照してください。
 https://prog-8.com/docs/git-env-win
+
+
 
 ## Mac 向け
 
